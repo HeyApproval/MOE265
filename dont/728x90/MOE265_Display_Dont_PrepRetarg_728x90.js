@@ -480,6 +480,13 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({alpha:1},9).wait(64));
 
+	// foregrass
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#597D5E").s().p("Egr+ACRIAAkhMBX9AAAIAAEhg");
+	this.shape_1.setTransform(466.5,85.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(144));
+
 	// smoke copy 3
 	this.instance_3 = new lib.Smokepuff();
 	this.instance_3.setTransform(278.05,73.8,0.683,0.6838,0,0,0,0.3,0.3);
@@ -528,25 +535,25 @@ if (reversed == null) { reversed = false; }
 
 	// bkgd
 	this.instance_9 = new lib.BkgdDont_728x90();
-	this.instance_9.setTransform(0,-140,0.24,0.24);
+	this.instance_9.setTransform(0,-121,0.24,0.24);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(144));
 
 	// stageBackground
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1,3,true).p("Eg6bgIlMB03AAAIAARLMh03AAAg");
-	this.shape_1.setTransform(364,45);
-
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("Eg6bAImIAAxLMB03AAAIAARLg");
+	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1,3,true).p("Eg6bgIlMB03AAAIAARLMh03AAAg");
 	this.shape_2.setTransform(364,45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1}]}).wait(144));
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#FFFFFF").s().p("Eg6bAImIAAxLMB03AAAIAARLg");
+	this.shape_3.setTransform(364,45);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(144));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(363.5,-95,365,284.9);
+p.nominalBounds = new cjs.Rectangle(363.5,-76,384.5,265.9);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -556,7 +563,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MOE265_Display_Dont_PrepRetarg_728x90_atlas_P_1.png?1623259866439", id:"MOE265_Display_Dont_PrepRetarg_728x90_atlas_P_1"}
+		{src:"images/MOE265_Display_Dont_PrepRetarg_728x90_atlas_P_1.png?1623428658107", id:"MOE265_Display_Dont_PrepRetarg_728x90_atlas_P_1"}
 	],
 	preloads: []
 };
