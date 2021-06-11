@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1", frames: [[0,0,1251,1043],[1253,0,1250,1043]]}
+		{name:"MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1", frames: [[0,0,1251,1043],[1253,0,1250,1043],[2505,0,100,47],[2607,0,100,34]]}
 ];
 
 
@@ -36,6 +36,20 @@ lib.ssMetadata = [
 (lib.BkgdSmokeFire_300x250_DisplayPrepare = function() {
 	this.initialize(ss["MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1"]);
 	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Cloud1 = function() {
+	this.initialize(ss["MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Cloud2 = function() {
+	this.initialize(ss["MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -540,17 +554,26 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(12).to({_off:false},0).wait(1).to({regX:0,regY:0,x:137.5,y:391.8909,alpha:0.0336},0).wait(1).to({y:390.9818,alpha:0.0676},0).wait(1).to({y:390.0727,alpha:0.1017},0).wait(1).to({y:389.1636,alpha:0.136},0).wait(1).to({y:388.2545,alpha:0.1702},0).wait(1).to({y:387.3455,alpha:0.2043},0).wait(1).to({y:386.4364,alpha:0.2381},0).wait(1).to({y:385.5273,alpha:0.2717},0).wait(1).to({y:384.6182,alpha:0.3048},0).wait(1).to({y:383.7091,alpha:0.3373},0).wait(1).to({y:382.8,alpha:0.3693},0).wait(1).to({y:381.8909,alpha:0.4005},0).wait(1).to({y:380.9818,alpha:0.431},0).wait(1).to({y:380.0727,alpha:0.4607},0).wait(1).to({y:379.1636,alpha:0.4895},0).wait(1).to({y:378.2545,alpha:0.5175},0).wait(1).to({y:377.3455,alpha:0.5444},0).wait(1).to({y:376.4364,alpha:0.5705},0).wait(1).to({y:375.5273,alpha:0.5956},0).wait(1).to({y:374.6182,alpha:0.6198},0).wait(1).to({y:373.7091,alpha:0.6429},0).wait(1).to({y:372.8,alpha:0.6652},0).wait(1).to({y:371.8909,alpha:0.6865},0).wait(1).to({y:370.9818,alpha:0.7069},0).wait(1).to({y:370.0727,alpha:0.7264},0).wait(1).to({y:369.1636,alpha:0.745},0).wait(1).to({y:368.2545,alpha:0.7628},0).wait(1).to({y:367.3455,alpha:0.7797},0).wait(1).to({y:366.4364,alpha:0.7958},0).wait(1).to({y:365.5273,alpha:0.8111},0).wait(1).to({y:364.6182,alpha:0.8256},0).wait(1).to({y:363.7091,alpha:0.8394},0).wait(1).to({y:362.8,alpha:0.8525},0).wait(1).to({y:361.8909,alpha:0.8649},0).wait(1).to({y:360.9818,alpha:0.8766},0).wait(1).to({y:360.0727,alpha:0.8877},0).wait(1).to({y:359.1636,alpha:0.8982},0).wait(1).to({y:358.2545,alpha:0.908},0).wait(1).to({y:357.3455,alpha:0.9173},0).wait(1).to({y:356.4364,alpha:0.926},0).wait(1).to({y:355.5273,alpha:0.9341},0).wait(1).to({y:354.6182,alpha:0.9417},0).wait(1).to({y:353.7091,alpha:0.9488},0).wait(1).to({y:352.8,alpha:0.9554},0).wait(1).to({y:351.8909,alpha:0.9616},0).wait(1).to({y:350.9818,alpha:0.9673},0).wait(1).to({y:350.0727,alpha:0.9725},0).wait(1).to({y:349.1636,alpha:0.9773},0).wait(1).to({y:348.2545,alpha:0.9817},0).wait(1).to({y:347.3455,alpha:0.9857},0).wait(1).to({y:346.4364,alpha:0.9893},0).wait(1).to({y:345.5273,alpha:0.9925},0).wait(1).to({y:344.6182,alpha:0.9954},0).wait(1).to({y:343.7091,alpha:0.9978},0).wait(1).to({regX:0.1,regY:0.2,x:137.6,y:343,alpha:1},0).wait(1).to({regX:0,regY:0,x:137.5,y:342.1327,alpha:0.9979},0).wait(1).to({y:341.4653,alpha:0.9955},0).wait(1).to({y:340.798,alpha:0.993},0).wait(1).to({y:340.1307,alpha:0.9904},0).wait(1).to({y:339.4633,alpha:0.9875},0).wait(1).to({y:338.796,alpha:0.9845},0).wait(1).to({y:338.1286,alpha:0.9812},0).wait(1).to({y:337.4613,alpha:0.9777},0).wait(1).to({y:336.794,alpha:0.9741},0).wait(1).to({y:336.1266,alpha:0.9702},0).wait(1).to({y:335.4593,alpha:0.9661},0).wait(1).to({y:334.792,alpha:0.9617},0).wait(1).to({y:334.1246,alpha:0.9571},0).wait(1).to({y:333.4573,alpha:0.9523},0).wait(1).to({y:332.7899,alpha:0.9472},0).wait(1).to({y:332.1226,alpha:0.9419},0).wait(1).to({y:331.4553,alpha:0.9362},0).wait(1).to({y:330.7879,alpha:0.9303},0).wait(1).to({y:330.1206,alpha:0.9241},0).wait(1).to({y:329.4533,alpha:0.9176},0).wait(1).to({y:328.7859,alpha:0.9108},0).wait(1).to({y:328.1186,alpha:0.9037},0).wait(1).to({y:327.4513,alpha:0.8963},0).wait(1).to({y:326.7839,alpha:0.8885},0).wait(1).to({y:326.1166,alpha:0.8803},0).wait(1).to({y:325.4492,alpha:0.8718},0).wait(1).to({y:324.7819,alpha:0.8629},0).wait(1).to({y:324.1146,alpha:0.8536},0).wait(1).to({y:323.4472,alpha:0.8439},0).wait(1).to({y:322.7799,alpha:0.8339},0).wait(1).to({y:322.1126,alpha:0.8234},0).wait(1).to({y:321.4452,alpha:0.8124},0).wait(1).to({y:320.7779,alpha:0.801},0).wait(1).to({y:320.1105,alpha:0.7892},0).wait(1).to({y:319.4432,alpha:0.7769},0).wait(1).to({y:318.7759,alpha:0.7641},0).wait(1).to({y:318.1085,alpha:0.7508},0).wait(1).to({y:317.4412,alpha:0.7371},0).wait(1).to({y:316.7739,alpha:0.7228},0).wait(1).to({y:316.1065,alpha:0.708},0).wait(1).to({y:315.4392,alpha:0.6928},0).wait(1).to({y:314.7719,alpha:0.677},0).wait(1).to({y:314.1045,alpha:0.6607},0).wait(1).to({y:313.4372,alpha:0.6438},0).wait(1).to({y:312.7698,alpha:0.6265},0).wait(1).to({y:312.1025,alpha:0.6087},0).wait(1).to({y:311.4352,alpha:0.5904},0).wait(1).to({y:310.7678,alpha:0.5717},0).wait(1).to({y:310.1005,alpha:0.5524},0).wait(1).to({y:309.4332,alpha:0.5328},0).wait(1).to({y:308.7658,alpha:0.5127},0).wait(1).to({y:308.0985,alpha:0.4923},0).wait(1).to({y:307.4311,alpha:0.4715},0).wait(1).to({y:306.7638,alpha:0.4504},0).wait(1).to({y:306.0965,alpha:0.4291},0).wait(1).to({y:305.4291,alpha:0.4075},0).wait(1).to({y:304.7618,alpha:0.3857},0).wait(1).to({y:304.0945,alpha:0.3637},0).wait(1).to({y:303.4271,alpha:0.3416},0).wait(1).to({y:302.7598,alpha:0.3195},0).wait(1).to({y:302.0925,alpha:0.2973},0).wait(1).to({y:301.4251,alpha:0.2751},0).wait(1).to({y:300.7578,alpha:0.2529},0).wait(1).to({y:300.0904,alpha:0.2308},0).wait(1).to({y:299.4231,alpha:0.2088},0).wait(1).to({y:298.7558,alpha:0.187},0).wait(1).to({y:298.0884,alpha:0.1653},0).wait(1).to({y:297.4211,alpha:0.1438},0).wait(1).to({y:296.7538,alpha:0.1225},0).wait(1).to({y:296.0864,alpha:0.1014},0).wait(1).to({y:295.4191,alpha:0.0806},0).wait(1).to({y:294.7517,alpha:0.06},0).wait(1).to({y:294.0844,alpha:0.0397},0).wait(1).to({y:293.4171,alpha:0.0197},0).wait(1).to({regX:0.1,regY:-0.1,x:137.6,y:292.9,alpha:0},0).to({_off:true},1).wait(1));
 
-	// bkgd
-	this.instance_9 = new lib.BkgdDont_300x250();
-	this.instance_9.setTransform(-20,275,0.24,0.24);
+	// clouds
+	this.instance_9 = new lib.Cloud1();
+	this.instance_9.setTransform(130,31,0.4,0.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(144));
+	this.instance_10 = new lib.Cloud2();
+	this.instance_10.setTransform(1,226,0.4,0.4);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10},{t:this.instance_9}]}).wait(144));
+
+	// bkgd
+	this.instance_11 = new lib.BkgdDont_300x250();
+	this.instance_11.setTransform(-84,275,0.24,0.24);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(144));
 
 	// bkgd-SmkFire
-	this.instance_10 = new lib.BkgdSmokeFire_300x250_DisplayPrepare();
-	this.instance_10.setTransform(58,242,0.24,0.24);
+	this.instance_12 = new lib.BkgdSmokeFire_300x250_DisplayPrepare();
+	this.instance_12.setTransform(58,242,0.24,0.24);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(144));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(144));
 
 	// stageBackground
 	this.shape_2 = new cjs.Shape();
@@ -566,7 +589,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(60,299.5,298,311.79999999999995);
+p.nominalBounds = new cjs.Rectangle(-4,299.5,362,311.79999999999995);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -576,7 +599,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1.png?1623195033809", id:"MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1"}
+		{src:"images/MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1.png?1623435899472", id:"MOE265_Display_Dont_PrepRetarg_160x600_atlas_P_1"}
 	],
 	preloads: []
 };
