@@ -26,7 +26,7 @@ lib.ssMetadata = [
 
 
 
-(lib.BkgdPrepare_300x250_DisplayPrepare = function() {
+(lib.BkgdPrepare2_300x250 = function() {
 	this.initialize(ss["MOE265_Display_Prepare_PrepAware_160x600_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -541,7 +541,7 @@ if (reversed == null) { reversed = false; }
 
 	// clouds
 	this.instance_10 = new lib.Cloud1();
-	this.instance_10.setTransform(5,224,0.4,0.4);
+	this.instance_10.setTransform(84,23,0.4,0.4);
 
 	this.instance_11 = new lib.Cloud2();
 	this.instance_11.setTransform(-8,106,0.4,0.4);
@@ -549,7 +549,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10}]}).wait(144));
 
 	// bkgd
-	this.instance_12 = new lib.BkgdPrepare_300x250_DisplayPrepare();
+	this.instance_12 = new lib.BkgdPrepare2_300x250();
 	this.instance_12.setTransform(1,236,0.24,0.24);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(144));
@@ -584,7 +584,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/MOE265_Display_Prepare_PrepAware_160x600_atlas_P_1.png?1623435927021", id:"MOE265_Display_Prepare_PrepAware_160x600_atlas_P_1"}
+		{src:"images/MOE265_Display_Prepare_PrepAware_160x600_atlas_P_1.png?1623696392106", id:"MOE265_Display_Prepare_PrepAware_160x600_atlas_P_1"}
 	],
 	preloads: []
 };
